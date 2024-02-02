@@ -1,0 +1,17 @@
+div{
+    width: 250px;
+    height: 190px;
+    background-color: black;
+}
+#one{
+    background-color:cornflowerblue;
+    border: 5px solid blue;
+}
+
+#two{
+    background-color: darkmagenta;
+}
+
+#three{
+  background-color: crimson;
+}

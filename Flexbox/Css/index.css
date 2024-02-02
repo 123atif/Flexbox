@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+   width: 1170px;
+   margin: auto;
+   border: 2px solid blue;
+   height: 500px;
+   margin-top: 3%;
+   display: flex;
+   /* flex-direction: row; */
+   /* justify-content: space-around; */
+   /* justify-content: space-evenly; */
+   /* flex-wrap: wrap-reverse; */
+   flex-wrap: wrap;
+   align-items: start;
+   /* align-items: end; */
+   /* align-items: center; */
+   /* align-content: start; */
+      /* align-content: end; */
+      /* align-content: space-between; */
+      /* flex-grow: 1; */
+
+  }
+.item1{
+  margin: 10px;
+  padding: 10px;
+  /* width: 500px; */
+  border: 1px solid red;
+  background-color: aqua;
+  text-align: center;
+}
+
+ .item1:nth-child(1){
+  /* flex-grow: 1; */
+  /* flex-basis: 90px; */
+  /* flex-shrink: 3; */
+   /* flex-shrink: 30px;  */
+   align-self: start;
+
+} 
+.item1:nth-child(2){
+  /* flex-grow: 1; */
+  /* flex-basis: 90px; */
+  /* flex-shrink: 3; */
+   /* flex-shrink: 30px;  */
+   align-self: center;
+
+} 
+.item1:nth-child(3){
+  /* flex-grow: 1; */
+  /* flex-basis: 90px; */
+  /* flex-shrink: 3; */
+   /* flex-shrink: 30px;  */
+   align-self: end;
+
+} 
+
+@media only screen and (min-width:200px) and (max-width: 767px) {
+  .container{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+}
